@@ -1,0 +1,364 @@
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    :root {
+        --h1: 52px;
+        --h2: 42px;
+        --h3: 30px;
+        --h4: 27px;
+        --h5: 21px;
+        --h6: 17px;
+        --s-default: 16px;
+    }
+
+    .testimonial-content .img img {
+        height: 80px;
+        width: 80px;
+    }
+
+    .testimonial-content {
+        gap: 16px;
+        padding: 16px 12px;
+    }
+
+    .testimonial-content .content blockquote {
+        height: 220px;
+    }
+
+    .contact-content .trustpilot span {
+        font-size: 14px;
+    }
+
+    .contact-content .trustpilot img {
+        width: 88px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    :root {
+        --h1: 48px;
+        --h2: 39px;
+        --h3: 27px;
+        --h4: 24px;
+        --h5: 19px;
+        --h6: 16px;
+        --s-default: 15px;
+    }
+
+    .banner-content {
+        height: 480px;
+    }
+
+    .approve-content img {
+        width: 64px;
+    }
+
+    .testimonial-content .content blockquote {
+        height: 160px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    :root {
+        --h1: 42px;
+        --h2: 33px;
+        --h3: 23px;
+        --h4: 20px;
+        --h5: 17px;
+        --h6: 16px;
+        --s-default: 15px;
+    }
+
+    .section-gap {
+        padding: 64px 0;
+    }
+
+    .heading-gap {
+        margin-top: 40px;
+    }
+
+    .top-header {
+        padding: 6px 0;
+    }
+
+    .header-marquee {
+        display: none;
+    }
+
+    .top-header-action ul li a {
+        font-size: 14px;
+    }
+
+    .top-header .social-media a {
+        font-size: 28px;
+    }
+
+    .site-logo img {
+        width: 112px;
+    }
+
+    .banner-content {
+        height: 440px;
+    }
+
+    .banner-content .main-content h1 {
+        font-weight: 700;
+    }
+
+    .approve-content h5 {
+        display: none;
+    }
+
+    .approve-content img {
+        width: 64px;
+    }
+
+    .btn-one,
+    .btn-two{
+        font: 500 16px/1.3 var(--default);
+    }
+
+    .testimonial-content .img img {
+        height: 64px;
+        width: 64px;
+        border: 1px solid rgba(45, 107, 6, 0.2);
+    }
+
+    .testimonial-content {
+        gap: 12px;
+        padding: 16px 10px;
+    }
+
+    .testimonial-content .content blockquote {
+        height: inherit;
+        font-size: 14px;
+    }
+
+    .slide-control .arrows li i {
+        padding: 6px 20px;
+        font-size: 14px;
+    }
+
+    .btt i {
+        height: 32px;
+        width: 32px;
+        line-height: 32px;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .team-activities span {
+        font-size: 14px;
+        padding: 2px 12px;
+    }
+
+    .contact-form label {
+        font-size: 15px;
+    }
+
+    .contact-form input::placeholder, textarea::placeholder {
+        font-size: 14px;
+    }
+
+    .contact-content .office-links li a {
+        font-size: 15px;
+    }
+
+    .contact-content .social-links a i {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .navbar-toggler {
+        border: 1px solid white;
+    }
+
+    .fa-bars {
+        color: white;
+    }
+
+    .main-navigation {
+        text-align: right;
+    }
+
+    .main-navigation li {
+        margin: 4px 0;
+    }
+
+    .js-center {
+        justify-content: center !important;
+    }
+
+    .res-top {
+        margin-top: 32px;
+    }
+
+    .res-l-top {
+        margin-top: 12px !important;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    footer .office-links, .social-links {
+        margin-top: 12px;
+    }
+
+    footer .social-links ul {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 575.98px) {
+    :root {
+        --h1: 38px;
+        --h2: 30px;
+        --h3: 21px;
+        --h4: 18px;
+        --h5: 16px;
+        --h6: 15px;
+        --s-default: 14px;
+    }
+
+    .banner-slide .slick-dots {
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        display: none !important;
+        text-align: center;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+    }
+
+    .section-gap {
+        padding: 48px 0;
+    }
+
+    .heading-gap {
+        margin-top: 28px;
+    }
+
+    .top-header {
+        padding: 6px 0;
+    }
+
+    .header-marquee {
+        display: none;
+    }
+
+    .top-header-action ul li a {
+        font-size: 14px;
+    }
+
+    .top-header .social-media a {
+        font-size: 24px;
+    }
+
+    .site-logo img {
+        width: 96px;
+    }
+
+    .main-navigation a {
+        font-size: 15px;
+        padding: 4px 14px !important;
+    }
+
+    .banner-content {
+        height: 400px;
+    }
+
+    .banner-content .main-content h1 {
+        font-weight: 700;
+    }
+
+    .approve-content h5 {
+        display: none;
+    }
+
+    .approve-content img {
+        width: 56px;
+    }
+
+    .btn-one,
+    .btn-two{
+        font: 500 15px/1.3 var(--default);
+    }
+
+    .about-content h6 span {
+        font-size: 32px;
+        font-weight: 600;
+    }
+
+    .testimonial-content .img img {
+        height: 64px;
+        width: 64px;
+        border: 1px solid rgba(45, 107, 6, 0.2);
+    }
+
+    .testimonial-content {
+        gap: 12px;
+        padding: 16px 10px;
+    }
+
+    .testimonial-content .content blockquote {
+        height: inherit;
+        font-size: 14px;
+    }
+
+    .slide-control .arrows li i {
+        padding: 6px 20px;
+        font-size: 14px;
+    }
+
+    .btt i {
+        height: 32px;
+        width: 32px;
+        line-height: 32px;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .team-activities span {
+        font-size: 13px;
+        padding: 2px 12px;
+    }
+
+    .contact-content {
+        padding: 20px 16px;
+    }
+
+    .contact-form label {
+        font-size: 15px;
+    }
+
+    .contact-form input::placeholder, textarea::placeholder {
+        font-size: 14px;
+    }
+
+    .contact-content .office-links li a {
+        font-size: 15px;
+    }
+
+    .contact-content .social-links a i {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 380.98px) {
+    :root {
+        --h1: 20px;
+        --h2: 30px;
+        --h3: 21px;
+        --h4: 18px;
+        --h5: 16px;
+        --h6: 15px;
+        --s-default: 14px;
+    }
+
+    .banner-slide .slick-dots {
+        display: none !important;
+    }
+}
